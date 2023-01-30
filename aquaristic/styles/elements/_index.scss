@@ -1,0 +1,45 @@
+.index {
+  background-color: $bg-main;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  &-layer {
+    background-image: url(../src/assets/layer1.png);
+    @include bg;
+    filter: drop-shadow(-80px -80px 160px black);
+    animation: light alternate 2s infinite;
+    animation-delay: 1.5s;
+
+    &-2 {
+      background-image: url(../src/assets/layer2.png);
+      @include bg;
+      filter: drop-shadow(-60px -60px 130px black);
+      animation: light2 alternate 3s infinite;
+      animation-delay: 2s;
+    }
+    &-3 {
+      background-image: url(../src/assets/layer3.png);
+      @include bg;
+      filter: drop-shadow(-40px -40px 100px black);
+      animation: light3 alternate 2.5s infinite;
+      animation-delay: 1s;
+    }
+    &-4 {
+      background-image: url(../src/assets/layer4.png);
+      @include bg;
+      filter: drop-shadow(-30px -30px 80px black);
+      animation: light4 alternate 3.5s infinite;
+      animation-delay: 0.2s;
+    }
+    &-5 {
+      background-image: url(../src/assets/layer5.png);
+      @include bg;
+      filter: drop-shadow(-20px -20px 60px black);
+      animation: light5 alternate 3s infinite;
+      animation-delay: 0.5s;
+    }
+  }
+}

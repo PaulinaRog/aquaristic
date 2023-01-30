@@ -1,0 +1,19 @@
+body {
+  font-family: $font-main;
+  font-size: 18px;
+  box-sizing: border-box;
+  color: $font-color;
+}
+
+button {
+  font-family: $font-main;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+}

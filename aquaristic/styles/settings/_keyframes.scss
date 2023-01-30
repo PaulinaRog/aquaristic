@@ -1,0 +1,44 @@
+@keyframes light {
+  from {
+    filter: drop-shadow(-80px -80px 180px black);
+  }
+  to {
+    filter: drop-shadow(120px 150px 160px rgb(2, 9, 60));
+  }
+}
+
+@keyframes light2 {
+  from {
+    filter: drop-shadow(-60px -60px 130px black);
+  }
+  to {
+    filter: drop-shadow(80px 120px 100px rgb(1, 32, 29));
+  }
+}
+
+@keyframes light3 {
+  from {
+    filter: drop-shadow(-40px -40px 100px black);
+  }
+  to {
+    filter: drop-shadow(40px 60px 80px rgb(8, 46, 42));
+  }
+}
+
+@keyframes light4 {
+  from {
+    filter: drop-shadow(-60px -30px 80px black);
+  }
+  to {
+    filter: drop-shadow(60px -80px 100px rgb(4, 1, 31));
+  }
+}
+
+@keyframes light5 {
+  from {
+    filter: drop-shadow(-20px -20px 60px rgb(2, 58, 53));
+  }
+  to {
+    filter: drop-shadow(-20px -30px 40px rgb(0, 35, 31));
+  }
+}
