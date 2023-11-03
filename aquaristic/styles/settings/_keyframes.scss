@@ -42,3 +42,70 @@
     filter: drop-shadow(-20px -30px 40px rgb(0, 35, 31));
   }
 }
+
+@keyframes sway {
+  from {
+    transform: rotate(25deg);
+    transform-origin: bottom;
+  }
+  to {
+    transform: rotate(30deg);
+    transform-origin: bottom;
+  }
+}
+@keyframes sway1 {
+  from {
+    transform: rotate(40deg);
+    transform-origin: bottom;
+  }
+  to {
+    transform: rotate(43deg);
+    transform-origin: bottom;
+  }
+}
+@keyframes sway2 {
+  from {
+    transform: rotate(15deg);
+    transform-origin: bottom;
+  }
+  to {
+    transform: rotate(20deg);
+    transform-origin: bottom;
+  }
+}
+@keyframes sway3 {
+  from {
+    transform: rotate(2deg);
+    transform-origin: bottom;
+  }
+  to {
+    transform: rotate(6deg);
+    transform-origin: bottom;
+  }
+}
+
+@keyframes sway4 {
+  from {
+    transform: rotate(35deg);
+  }
+  to {
+    transform: rotate(40deg);
+  }
+}
+
+@keyframes sway5 {
+  from {
+    transform: rotate(-40deg);
+  }
+  to {
+    transform: rotate(-45deg);
+  }
+}
+@keyframes sway6 {
+  from {
+    transform: rotate(-5deg);
+  }
+  to {
+    transform: rotate(5deg);
+  }
+}

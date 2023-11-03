@@ -12,6 +12,7 @@
     filter: drop-shadow(-80px -80px 160px black);
     animation: light alternate 2s infinite;
     animation-delay: 1.5s;
+    z-index: 1;
 
     &-2 {
       background-image: url(../src/assets/layer2.png);
@@ -19,6 +20,7 @@
       filter: drop-shadow(-60px -60px 130px black);
       animation: light2 alternate 3s infinite;
       animation-delay: 2s;
+      z-index: 2;
     }
     &-3 {
       background-image: url(../src/assets/layer3.png);
@@ -26,6 +28,7 @@
       filter: drop-shadow(-40px -40px 100px black);
       animation: light3 alternate 2.5s infinite;
       animation-delay: 1s;
+      z-index: 3;
     }
     &-4 {
       background-image: url(../src/assets/layer4.png);
@@ -33,6 +36,7 @@
       filter: drop-shadow(-30px -30px 80px black);
       animation: light4 alternate 3.5s infinite;
       animation-delay: 0.2s;
+      z-index: 4;
     }
     &-5 {
       background-image: url(../src/assets/layer5.png);
@@ -40,6 +44,123 @@
       filter: drop-shadow(-20px -20px 60px black);
       animation: light5 alternate 3s infinite;
       animation-delay: 0.5s;
+      z-index: 5;
     }
   }
+}
+
+.coral {
+  width: 20%;
+  height: 35%;
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  filter: drop-shadow(-20px -20px 60px black);
+  animation: sway alternate 2s infinite;
+}
+
+.coral2 {
+  z-index: 2;
+  position: absolute;
+  width: 20%;
+  height: 30%;
+  top: 20%;
+  left: 35%;
+  filter: drop-shadow(-20px -20px 60px black);
+  animation: sway1 alternate 2.5s infinite;
+}
+
+.coral3 {
+  z-index: 2;
+  position: absolute;
+  width: 10%;
+  height: 20%;
+  top: 60%;
+  left: 58%;
+  filter: drop-shadow(-20px -20px 60px black);
+  animation: sway2 alternate 2s infinite;
+}
+
+.coral4 {
+  z-index: 1;
+  position: absolute;
+  width: 15%;
+  height: 25%;
+  top: 47%;
+  left: 65%;
+  transform: rotate(15deg);
+  filter: drop-shadow(-20px -20px 60px black);
+  animation: sway2 alternate 3s infinite;
+}
+
+.coral5 {
+  z-index: 4;
+  position: absolute;
+  width: 10%;
+  height: 15%;
+  bottom: 4%;
+  left: 75%;
+  filter: drop-shadow(-20px -20px 40px black);
+  animation: sway3 alternate 2.2s infinite;
+}
+
+.coral6 {
+  z-index: 2;
+  position: absolute;
+  width: 7%;
+  height: 25%;
+  top: 45%;
+  left: 50%;
+  filter: drop-shadow(-20px -20px 60px black);
+  animation: sway4 alternate 2s infinite;
+}
+
+.coral7 {
+  z-index: 3;
+  position: absolute;
+  width: 7%;
+  height: 25%;
+  top: 58%;
+  right: 10%;
+  filter: drop-shadow(-20px -20px 60px black);
+  animation: sway5 alternate 2s infinite;
+}
+
+.weeds {
+  width: 15%;
+  height: 25%;
+  position: absolute;
+  top: 2%;
+  left: 82%;
+  z-index: 3;
+  filter: drop-shadow(-20px -20px 60px black);
+  animation: sway6 alternate 1.5s infinite;
+}
+
+.fishy {
+  perspective: 150px;
+  width: 100px;
+  height: 100px;
+  z-index: 7;
+  position: absolute;
+  transition: all 2s ease;
+}
+
+.turtle {
+  perspective: 150px;
+  width: 150px;
+  height: 150px;
+  z-index: 7;
+  position: absolute;
+  transition: all 5s ease;
+  transform: rotate(-20deg);
+}
+
+.fatfish {
+  perspective: 150px;
+  width: 150px;
+  height: 70px;
+  z-index: 7;
+  position: absolute;
+  transition: all 3s ease;
 }
